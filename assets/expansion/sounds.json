@@ -118,5 +118,42 @@
         "sounds": [
             "expansion:rocket_boots/turnoff"
         ]
+    },
+    "teslacoil.zap": {
+        "category": "block",
+        "sounds": [
+            "expansion:tesla_coil/zap"
+        ]
+    },
+    "teslacoil.charge": {
+        "category": "block",
+        "sounds": [
+            "expansion:tesla_coil/charge"
+        ]
+    },
+    "drone.dismiss": {
+        "category": "neutral",
+        "sounds": [
+            "expansion:mobs/pet_drone/dismiss"
+        ]
+    },
+    "drone.error": {
+        "category": "neutral",
+        "sounds": [
+            "expansion:mobs/pet_drone/error"
+        ]
+    },
+    "drone.success": {
+        "category": "neutral",
+        "sounds": [
+            "expansion:mobs/pet_drone/success"
+        ]
+    },
+    "drone.interact": {
+        "category": "neutral",
+        "sounds": [
+            "expansion:mobs/pet_drone/success",
+            "expansion:mobs/pet_drone/error"
+        ]
     }
 }

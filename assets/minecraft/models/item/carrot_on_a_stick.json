@@ -6,8 +6,8 @@
  "overrides": [
   { "predicate": {"custom_model_data": 1012000}, "model": "expansion:vehicles/rocket"},
  
-  { "predicate": {"custom_model_data": 1012002}, "model": "expansion:vehicles/spaceship1"},
-  { "predicate": {"custom_model_data": 1012003}, "model": "expansion:vehicles/spaceship1_landed"},
+  { "predicate": {"custom_model_data": 1012002}, "model": "expansion:vehicles/spaceship"},
+  { "predicate": {"custom_model_data": 1012003}, "model": "expansion:vehicles/spaceship_landed"},
   { "predicate": {"custom_model_data": 1012004}, "model": "expansion:vehicles/lunar_module"},
   { "predicate": {"custom_model_data": 1012005}, "model": "expansion:vehicles/lunar_module_falling"},
   
@@ -37,6 +37,7 @@
   { "predicate": {"custom_model_data": 1012023}, "model": "expansion:vehicles/zwaluw/zwaluw_landed"},
 
   { "predicate": {"custom_model_data": 1012050}, "model": "expansion:structures/assembler_item"},
+  { "predicate": {"custom_model_data": 1012051}, "model": "expansion:structures/assembler_advancement"},
 
   { "predicate": {"custom_model_data": 1012100}, "model": "expansion:armor/space_equipment/space_jetpack_blue"},
   { "predicate": {"custom_model_data": 1012101}, "model": "expansion:armor/space_equipment/space_jetpack_black"},
@@ -73,9 +74,13 @@
   { "predicate": {"custom_model_data": 1012257}, "model": "expansion:tools/oxygen_tank/oxygen_90"},
   { "predicate": {"custom_model_data": 1012258}, "model": "expansion:tools/oxygen_tank/oxygen_100"},
   
-  { "predicate": {"custom_model_data": 1012297}, "model": "expansion:items/rocket_top"},
-  { "predicate": {"custom_model_data": 1012298}, "model": "expansion:items/rocket_cockpit"},
-  { "predicate": {"custom_model_data": 1012299}, "model": "expansion:items/rocket_bottom"},
+  { "predicate": {"custom_model_data": 1012294}, "model": "expansion:items/rocket_top"},
+  { "predicate": {"custom_model_data": 1012295}, "model": "expansion:items/rocket_cockpit"},
+  { "predicate": {"custom_model_data": 1012296}, "model": "expansion:items/rocket_bottom"},
+
+  { "predicate": {"custom_model_data": 1012297}, "model": "expansion:blocks/rocket_top"},
+  { "predicate": {"custom_model_data": 1012298}, "model": "expansion:blocks/rocket_cockpit"},
+  { "predicate": {"custom_model_data": 1012299}, "model": "expansion:blocks/rocket_bottom"},
 
   { "predicate": {"custom_model_data": 1012300}, "model": "expansion:blocks/workbench"},
   { "predicate": {"custom_model_data": 1012301}, "model": "expansion:blocks/terraformer"},
@@ -88,10 +93,15 @@
   { "predicate": {"custom_model_data": 1012308}, "model": "expansion:blocks/fabricator"},
   { "predicate": {"custom_model_data": 1012309}, "model": "expansion:blocks/oxygenator"},
   { "predicate": {"custom_model_data": 1012310}, "model": "expansion:blocks/oxygenator_animated"},
+  { "predicate": {"custom_model_data": 1012311}, "model": "expansion:blocks/tesla_coil"},
+  { "predicate": {"custom_model_data": 1012312}, "model": "expansion:blocks/modstation"},
   
 
   { "predicate": {"custom_model_data": 1012400}, "model": "expansion:statues/quercus"},
   { "predicate": {"custom_model_data": 1012401}, "model": "expansion:statues/tristan_arthur"},
+
+  { "predicate": {"custom_model_data": 1012410}, "model": "expansion:mobs/drone"},
+  { "predicate": {"custom_model_data": 1012411}, "model": "expansion:mobs/pet_drone"},
 
   { "predicate": {"custom_model_data": 1012500}, "model": "expansion:weapons/railgun"},
   
